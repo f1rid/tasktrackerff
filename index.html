@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tast Tracker</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="root">
+		<div class="tracker">
+			<div class="tracker-header"></div>
+			<div class="tracker-content">
+				<h3 class="tracker-title">To-do list</h3>
+
+				<div class="tracker-sort-area">
+					<button type="button" class="tracker-sort">
+						<i class="bi bi-sort-down-alt"></i>
+					</button>
+				</div>
+
+				<div class="tracker-list" id="tracker-list">
+					<div class="tracker-item">
+						<input class="tracker-input" type="text">
+						<button type="button" class="tracker-delete">
+							&#10005;
+						</button>
+					</div>
+				</div>
+
+				<button class="tracker-add">
+					<div class="tracker-add-plus">+</div>
+					<span class="tracker-add-text">Добавить</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
